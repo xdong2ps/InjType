@@ -1,0 +1,9 @@
+#!/bin/bash
+#$ -M xdong2@nd.edu
+#$ -m abe
+#$ -q gpu
+#$ -l gpu_card=1
+module load python
+module load pytorch
+NQG_HOME=/afs/crc.nd.edu/group/dmsquare/vol3/xdong2/graph2seq/nqgln
+bash $NQG_HOME/code/NQG/seq2seq_pt_ss_inj/run_inj_nyt.sh $NQG_HOME/data/redistribute/QG $NQG_HOME/code/NQG/seq2seq_pt_ss_inj

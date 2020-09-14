@@ -1,0 +1,9 @@
+#!/bin/bash
+#$ -M xdong2@nd.edu
+#$ -m abe
+#$ -q gpu
+#$ -l gpu_card=1
+module load python
+module load pytorch
+NQG_HOME=/afs/crc.nd.edu/group/dmsquare/vol3/xdong2/InjType
+bash $NQG_HOME/code/run_inj_giga.sh $NQG_HOME/dataset $NQG_HOME/code

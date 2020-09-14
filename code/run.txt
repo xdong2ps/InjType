@@ -1,0 +1,3 @@
+NQG_HOME=/afs/crc.nd.edu/group/dmsquare/vol3/xdong2/graph2seq/nqgln
+
+bash $NQG_HOME/code/NQG/seq2seq_pt/run_squad_qg.sh $NQG_HOME/data/redistribute/QG $NQG_HOME/code/NQG/seq2seq_pt
