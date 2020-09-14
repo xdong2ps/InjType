@@ -1,6 +1,6 @@
 # InjType
 
-The project is broken down into two sections, model and dataset. 
+The project is broken down into two sections, code and dataset. 
 
 ### Install requirements
 Use the requirements.txt to install all requirements.
